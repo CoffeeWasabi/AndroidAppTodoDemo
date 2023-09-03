@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_drawer"
+    app:startDestination="@id/infoListFragment">
+
+
+    <fragment
+        android:id="@+id/infoListFragment"
+        android:name="com.coffeewasabi.android.androidapptododemo.fragment.InfoListFragment"
+        android:label="@string/page_title_info">
+        <action
+            android:id="@+id/action_infoListFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.coffeewasabi.android.androidapptododemo.fragment.DetailFragment">
+        <action
+            android:id="@+id/action_detailFragment_to_infoListFragment"
+            app:destination="@id/infoListFragment" />
+    </fragment>
+</navigation>

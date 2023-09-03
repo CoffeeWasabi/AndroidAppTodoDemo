@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidAppTodoDemo</string>
+
+    <!-- page -->
+    <string name="page_title_info">Task list</string>
+    <string name="page_detail">Todo Detail</string>
+
+</resources>

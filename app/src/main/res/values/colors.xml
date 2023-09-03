@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue Gray 50-->
+    <color name="purple_200">#FFB0BEC5</color>
+    <color name="purple_500">#FF607D8B</color>
+    <color name="purple_700">#FF455A64</color>
+
+    <!-- Deep Orange-->
+    <color name="teal_200">#FFFFAB91</color>
+    <color name="teal_700">#FFE64A19</color>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+    <color name="main_color">#A6F3F1</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="text_primary_color">#FF00E5</color>
+    <color name="text_black_primary">#000000</color>
+    <color name="text_black_secondary">#4E4E4E</color>
+    <color name="text_white_primary">#FFFFFF</color>
+    <color name="text_white_secondary">#A3A3A3</color>
+
+    <color name="text_cancel_line_color">#A3A3A3</color>
+    <color name="secondary_text_default_material_common">#8a000000</color>
+
+    <color name="dark">#FF0000</color>
+
+    <color name="window_back_ground">#FFFFFF</color>
+
+</resources>
